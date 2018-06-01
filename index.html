@@ -14,6 +14,9 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <div class="container">
         <div class="heroOne">
             <img src="./Image/clareDevine.jpg" class="photo" />
@@ -35,13 +38,13 @@
               </a>
             </center>
         </div>
-        <div class="heroTwo">
+        <divclass="heroTwo">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-quad">
               <h3>About 📝</h3>
               <p>I'm an experienced software developer with exposure in the broadcast media industry based in Leeds.</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6"  data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-quad">
               <h3>Technologies 👩🏻‍💻</h3>
               <ul class="bulletpoints">
                 <li>JavaScript</li>
@@ -52,6 +55,9 @@
               </ul>
             </div>
           </div>
+        </div>
+        <div class="heroThree">
+
         </div>
     </div>
   </body>
