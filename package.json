@@ -1,0 +1,22 @@
+{
+  "name": "claredevine.co.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claredevine/claredevine.co.uk.git"
+  },
+  "author": "Clare Devine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claredevine/claredevine.co.uk/issues"
+  },
+  "homepage": "https://github.com/claredevine/claredevine.co.uk#readme",
+  "dependencies": {
+    "aos": "^2.3.0"
+  }
+}
